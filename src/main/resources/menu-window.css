@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    -fx-font-family: 'Work Sans';
+    -fx-font-size: 19;
+}
+
+.menu-container {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-alignment: center;
+
+}
+
+.container {
+    -fx-fill: grey;
+    -fx-border-radius: 10;
+    -fx-pref-width: 200;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-padding: 20px;
+    -fx-spacing: 250px;
+    -fx-alignment: baseline-center;
+    -fx-min-width: 740px;
+    -fx-border-insets: 30px 20px 30px 20px;
+}

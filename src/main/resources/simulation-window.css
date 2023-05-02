@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    -fx-font-family: 'Work Sans';
+    -fx-font-size: 19;
+}
+
+
+.simulation-window {
+    -fx-border-width: 3px;
+    -fx-border-color: green;
+    -fx-alignment: top-center;
+}
+
+.grid-container, .panel-place, .left-container {
+    -fx-padding: 10px;
+    -fx-border-insets: 5px;
+    -fx-border-radius: 3px;
+}
+
+.grid-container {
+    -fx-border-color: black;
+    -fx-min-width: 500px;
+
+}
+
+.panel-place {
+    -fx-border-color: black;
+    -fx-pref-width: 300;
+}
+
+.grid-container .grid {
+    -fx-background-color: rgba(238, 238, 238, 0.76);
+}
+
+
+/*map elements*/
+
+.highlight {
+    -fx-background-color: rgba(255, 0, 0, 0.42);
+}
+
+.just-animal {
+    -fx-background-color: rgba(154, 154, 154, 0.28);
+}
+
+.grass {
+    -fx-background-color: rgba(250, 223, 49, 0.25);
+}
+
+.grass-boost {
+    -fx-background-color: rgba(79, 255, 32, 0.36);
+
+}
+
+
+/*charts*/
+
+.left-container {
+    -fx-pref-width: 400;
+}
